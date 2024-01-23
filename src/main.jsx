@@ -6,9 +6,10 @@ import PackingList from './PackingList.jsx'
 import List from './List.jsx'
 import People from './people.jsx'
 import RecipeList from './RecipeList.jsx'
+import ButtonList from './Button.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RecipeList />
+    <ButtonList />
   </React.StrictMode>,
 )
