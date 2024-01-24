@@ -7,9 +7,10 @@ import List from './List.jsx'
 import People from './people.jsx'
 import RecipeList from './RecipeList.jsx'
 import ButtonList from './Button.jsx'
+import Profile from './Avatar.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <ButtonList />
+    <Profile />
   </React.StrictMode>,
 )
