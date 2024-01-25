@@ -8,9 +8,10 @@ import People from './people.jsx'
 import RecipeList from './RecipeList.jsx'
 import ButtonList from './Button.jsx'
 import Profile from './Avatar.jsx'
+import Gallery from './Gallery.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Profile />
+    <Gallery />
   </React.StrictMode>,
 )
